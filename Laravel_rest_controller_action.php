@@ -1,3 +1,4 @@
+<?php
    public function getMerchantAdditionalInfo()
     {
         $this->es_logger->addNotice("Input: " . var_export(Input::all(), true), ['input' => true]);

@@ -1,3 +1,5 @@
+<?php
+
     public function metalPricesAction()
     {
         $this->layout('layout/admin');
@@ -18,7 +20,7 @@
         $silver = $e->fetchSilver();
        
         return new ViewModel(array(
-            "goldList"=>$gold "silverList" => $silver 
+            "goldList"=>$gold, "silverList" => $silver
             )
         );
     }		

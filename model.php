@@ -1,3 +1,4 @@
+<?php
 class Db_options_model extends CI_Model
 {
     public function getDiintProminSessionProduction()
